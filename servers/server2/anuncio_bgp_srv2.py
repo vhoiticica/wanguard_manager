@@ -15,7 +15,7 @@ def carregar_configuracoes(caminho_arquivo):
 config = carregar_configuracoes("config.yaml")
 
 # Obter as configurações do servidor escolhido
-servidor = config['Server1']
+servidor = config['Server2']
 USERNAME = servidor['username']
 PASSWORD = servidor['password']
 API_BASE_URL = servidor['api_base_url']
