@@ -34,6 +34,17 @@ Instale as dependências no ambiente virtual:
 
     pip install -r requirements.txt
 
+Edite o arquivos config.yaml
+
+    nano config/config.yaml
+
+Acesse a pasta com o código principal e execute:
+
+    cd wanguard
+    streamlit run wanguard_manager.py
+
+Caso queira interromper a execução, basta utilizar Ctrl+C
+
 Execute seu código dentro do ambiente virtual. Quando terminar, você pode desativar o ambiente com:
 
     deactivate
