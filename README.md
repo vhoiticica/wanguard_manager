@@ -9,6 +9,10 @@ Criar um Ambiente Virtual (Recomendado)
 O uso de um ambiente virtual (venv) é a forma mais segura e recomendada para gerenciar dependências do Python sem interferir no sistema.
 Passos:
 
+Instalar o python3-venv:
+
+    sudo apt install python3-venv
+
 Crie um ambiente virtual:
 
     python3 -m venv venv
