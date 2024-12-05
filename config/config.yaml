@@ -1,0 +1,11 @@
+Server1:
+  name: "Server-Name1" #Name of your server
+  username: "api-user" #Your user who has API permissions
+  password: "api-user-password" #Your user password
+  api_base_url: "https://<SERVER-IP>/wanguard-api/v1" #Or HTTP, Depends on your server configuration
+
+Server2:
+  name: "Server-Name2" #Name of your server
+  username: "api-user" #Your user who has API permissions
+  password: "api-user-password" #Your user password
+  api_base_url: "https://<SERVER-IP2>/wanguard-api/v1" #Or HTTP, Depends on your server configuration
