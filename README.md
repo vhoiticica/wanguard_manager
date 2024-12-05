@@ -17,11 +17,11 @@ Ative o ambiente virtual:
 
 Linux/MacOS:
 
-        source venv/bin/activate
+    source venv/bin/activate
 
 Windows:
 
-        venv\Scripts\activate
+    venv\Scripts\activate
 
 Instale as dependências no ambiente virtual:
 
