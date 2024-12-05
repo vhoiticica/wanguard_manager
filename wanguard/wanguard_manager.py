@@ -52,7 +52,7 @@ if st.session_state.logged_in:
             "main_page.py", title="Arquivo de Configuração", default=True
         )
 
-    #-----------------------------EQUINIX-----------------------------#
+    #-----------------------------SERVER1-----------------------------#
     if 'Server1' in config:
         server1 = config['Server1']
         remove_srv1 = st.Page(
@@ -62,7 +62,7 @@ if st.session_state.logged_in:
             "servers/server1/anuncio_bgp_srv1.py", title=f"{server1['name']} - Anúncio BGP"
         )
 
-    #-----------------------------TELEPORTO-----------------------------#
+    #-----------------------------SERVER2-----------------------------#
     if 'Server2' in config:
         server2 = config['Server2']
         remove_srv2 = st.Page(
