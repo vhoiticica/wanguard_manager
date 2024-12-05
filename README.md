@@ -1,4 +1,4 @@
-##Em construção!
+Começando agora...
 
 Instale Dependências de Compilação:
 
