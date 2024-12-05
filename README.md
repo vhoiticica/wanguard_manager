@@ -15,17 +15,17 @@ Crie um ambiente virtual:
 
 Ative o ambiente virtual:
 
-    Linux/MacOS:
+Linux/MacOS:
 
         source venv/bin/activate
 
-    Windows:
+Windows:
 
         venv\Scripts\activate
 
 Instale as dependências no ambiente virtual:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Execute seu código dentro do ambiente virtual. Quando terminar, você pode desativar o ambiente com:
 
