@@ -56,20 +56,20 @@ if st.session_state.logged_in:
     if 'Server1' in config:
         server1 = config['Server1']
         remove_srv1 = st.Page(
-            "servers/server1/remove_duplicates_srv1.py", title=f"{server1['name']} - Remover Duplicados"
+            "../servers/server1/remove_duplicates_srv1.py", title=f"{server1['name']} - Remover Duplicados"
         )
         anuncio_srv1 = st.Page(
-            "servers/server1/anuncio_bgp_srv1.py", title=f"{server1['name']} - Anúncio BGP"
+            "../servers/server1/anuncio_bgp_srv1.py", title=f"{server1['name']} - Anúncio BGP"
         )
 
     #-----------------------------SERVER2-----------------------------#
     if 'Server2' in config:
         server2 = config['Server2']
         remove_srv2 = st.Page(
-            "servers/server2/remove_duplicates_srv2.py", title=f"{server2['name']} - Remover Duplicados"
+            "../servers/server2/remove_duplicates_srv2.py", title=f"{server2['name']} - Remover Duplicados"
         )
         anuncio_srv2 = st.Page(
-            "servers/server2/anuncio_bgp_srv2.py", title=f"{server2['name']} - Anúncio BGP"
+            "../servers/server2/anuncio_bgp_srv2.py", title=f"{server2['name']} - Anúncio BGP"
         )
 
     #-----------------------------BARRA LATERAL-----------------------------#
