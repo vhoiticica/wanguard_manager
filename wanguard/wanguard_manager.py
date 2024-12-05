@@ -8,7 +8,7 @@ def carregar_configuracoes(caminho_arquivo):
         configuracoes = yaml.safe_load(file)
     return configuracoes
 
-config = carregar_configuracoes("../config/config.yaml")
+config = carregar_configuracoes(r"../config/config.yaml")
 
 #-----------------------------PAGINA DE LOGIN-----------------------------#
 if "logged_in" not in st.session_state:
