@@ -2,7 +2,9 @@
 A graphical interface to manage some functions that are not available on the Wanguard web.
 
 
-1. Criar um Ambiente Virtual (Recomendado)
+
+
+Criar um Ambiente Virtual (Recomendado)
 
 O uso de um ambiente virtual (venv) é a forma mais segura e recomendada para gerenciar dependências do Python sem interferir no sistema.
 Passos:
@@ -27,4 +29,4 @@ pip install -r requirements.txt
 
 Execute seu código dentro do ambiente virtual. Quando terminar, você pode desativar o ambiente com:
 
-deactivate
+    deactivate
