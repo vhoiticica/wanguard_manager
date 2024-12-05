@@ -12,7 +12,7 @@ def carregar_configuracoes(caminho_arquivo):
     return configuracoes
 
 # Carregar as configurações do arquivo YAML
-config = carregar_configuracoes("../../config/config.yaml")
+config = carregar_configuracoes(r"../config/config.yaml")
 
 # Obter as configurações do servidor escolhido
 servidor = config['Server2']
