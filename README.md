@@ -2,7 +2,10 @@
 ## A graphical interface to manage some functions that are not available on the Wanguard web.
 
 
+Instale Dependências de Compilação:
 
+    sudo apt update
+    sudo apt install build-essential libssl-dev libffi-dev python3-dev
 
 Criar um Ambiente Virtual (Recomendado)
 
