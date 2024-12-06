@@ -17,8 +17,8 @@ if "logged_in" not in st.session_state:
 def verificar_credenciais(username, password):
     for server_name, server_data in config.items():
         if username == server_data['username'] and password == server_data['password']:
-            return True  # Se as credenciais forem válidas
-    return False  # Se as credenciais forem inválidas
+            return True  
+    return False
 
 def login():
     st.title("Página de Login")
@@ -26,12 +26,12 @@ def login():
     username = st.text_input("Nome de usuário")
     password = st.text_input("Senha", type="password")
     
-    # Verificação de login
+    
     if st.button("Logar"):
         if verificar_credenciais(username, password):
             st.session_state.logged_in = True
             st.success("Login bem-sucedido!")
-            st.rerun()  # Recarrega a página para mostrar a interface principal
+            st.rerun()  
         else:
             st.session_state.logged_in = False
             st.error("Credenciais incorretas. Tente novamente.")
